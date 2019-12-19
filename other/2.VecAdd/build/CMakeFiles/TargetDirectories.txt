@@ -1,0 +1,3 @@
+/home/fb/Learn/tutorials/CUDA编程入门/examples/VecAdd/build/CMakeFiles/edit_cache.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/VecAdd/build/CMakeFiles/rebuild_cache.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/VecAdd/build/CMakeFiles/VecAdd.dir

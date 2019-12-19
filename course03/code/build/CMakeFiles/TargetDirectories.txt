@@ -1,0 +1,7 @@
+/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/reduce.dir
+/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/atomics.dir
+/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/rebuild_cache.dir
+/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/memory.dir
+/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/homework_scan.dir
+/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/scan.dir
+/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,4 @@
+/home/fb/Learn/tutorials/CUDA编程入门/examples/men/build/CMakeFiles/edit_cache.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/men/build/CMakeFiles/rebuild_cache.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/men/build/CMakeFiles/mem-host.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/men/build/CMakeFiles/mem.dir

@@ -1,0 +1,63 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba134/fast && /usr/bin/make -f CMakeFiles/cmTC_ba134.dir/build.make CMakeFiles/cmTC_ba134.dir/build
+make[1]: Entering directory '/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba134.dir/src.c.o
+/usr/bin/cc   -fPIC -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ba134.dir/src.c.o   -c /home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ba134
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba134.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_ba134.dir/src.c.o  -o cmTC_ba134 
+CMakeFiles/cmTC_ba134.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.c:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x5b)：对‘pthread_join’未定义的引用
+src.c:(.text+0x6f)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ba134.dir/build.make:86: recipe for target 'cmTC_ba134' failed
+make[1]: *** [cmTC_ba134] Error 1
+make[1]: Leaving directory '/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ba134/fast' failed
+make: *** [cmTC_ba134/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59a80/fast && /usr/bin/make -f CMakeFiles/cmTC_59a80.dir/build.make CMakeFiles/cmTC_59a80.dir/build
+make[1]: Entering directory '/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59a80.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_59a80.dir/CheckFunctionExists.c.o   -c /opt/cmake/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59a80
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59a80.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_59a80.dir/CheckFunctionExists.c.o  -o cmTC_59a80 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_59a80.dir/build.make:86: recipe for target 'cmTC_59a80' failed
+make[1]: *** [cmTC_59a80] Error 1
+make[1]: Leaving directory '/home/fb/Learn/CUDAtutorials/course03/code/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_59a80/fast' failed
+make: *** [cmTC_59a80/fast] Error 2
+
+
+

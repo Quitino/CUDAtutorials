@@ -1,0 +1,3 @@
+/home/fb/Learn/CUDAtutorials/course02/code/build/CMakeFiles/rebuild_cache.dir
+/home/fb/Learn/CUDAtutorials/course02/code/build/CMakeFiles/square.dir
+/home/fb/Learn/CUDAtutorials/course02/code/build/CMakeFiles/edit_cache.dir

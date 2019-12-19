@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/mem.dir/mem_generated_mem.cu.o  -o mem -rdynamic /usr/local/cuda-10.1/lib64/libcudart_static.a -lpthread -ldl -lrt 

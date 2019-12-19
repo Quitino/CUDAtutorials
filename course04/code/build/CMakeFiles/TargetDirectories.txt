@@ -1,0 +1,4 @@
+/home/fb/Learn/CUDAtutorials/course04/code/build/CMakeFiles/rebuild_cache.dir
+/home/fb/Learn/CUDAtutorials/course04/code/build/CMakeFiles/edit_cache.dir
+/home/fb/Learn/CUDAtutorials/course04/code/build/CMakeFiles/histo.dir
+/home/fb/Learn/CUDAtutorials/course04/code/build/CMakeFiles/histo1.dir

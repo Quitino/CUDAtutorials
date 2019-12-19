@@ -1,0 +1,5 @@
+/home/fb/Learn/tutorials/CUDA编程入门/examples/reduction/build/CMakeFiles/rebuild_cache.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/reduction/build/CMakeFiles/edit_cache.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/reduction/build/CMakeFiles/reduction_2.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/reduction/build/CMakeFiles/1B-reduction.dir
+/home/fb/Learn/tutorials/CUDA编程入门/examples/reduction/build/CMakeFiles/reduction_1.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/histo1.dir/histo1_generated_histo1.cu.o  -o histo1 /usr/local/cuda-10.1/lib64/libcudart_static.a -lpthread -ldl -lrt 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/1B-reduction.dir/1B-reduction_generated_1B-reduction.cu.o  -o 1B-reduction /usr/local/cuda-10.1/lib64/libcudart_static.a -lpthread -ldl -lrt 
